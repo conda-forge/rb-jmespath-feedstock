@@ -1,5 +1,5 @@
 {% set name = "jmespath" %}
-{% set version = "1.4.0" %}
+{% set version = "1.5.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: ee5930ed833d3472fce31abf2f4a39852718e90b099dc2a6713234d600539cb4
+  sha256: 5679c7ff84947593421d26c626760e53b867960260c6b999a178b0864a8097fa
 
 build:
   noarch: generic
